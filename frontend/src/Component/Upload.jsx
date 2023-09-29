@@ -26,7 +26,7 @@ export default function Upload() {
             const formData = new FormData();
             formData.append("image", file);
             try {
-                const res = await axios.post(import.meta.env.SERVER_URL || "http://localhost:9000/upload", formData);
+                const res = await axios.post(import.meta.env.SERVER_URL, formData);
                 setMalware({ type: res.data.type, class: res.data.class });
                 setDisplayUpload(false);
                 setDisplayResult(true);
