@@ -1,0 +1,32 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('../src/images/malware.webp');
+  /* background: rgba(0,0,0,0.9) ; */
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px; 
+}
+
+.homepage{
+  height: 100vh;
+}
+.homepage-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutpage-info{
+  font-family: Verdana, sans-serif;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: medium;
+}
+
+
+
+
